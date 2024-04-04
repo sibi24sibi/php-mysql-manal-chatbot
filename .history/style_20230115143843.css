@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .bot-windows {
+    margin: 50px 0;
+    height: 500px;
+    width: 450px;
+    background-color:rgb(4, 96, 88);
+    
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 20px;
+  }
+  .bot-window-materail {
+    margin: 15px;
+    width: 450px;
+    
+  }
+  .profile {
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .profile img {
+    height: 30px;
+    weight: 30px;
+    border-radius: 50px;
+  }
+  .glyphicon {
+    font-size: 20px;
+  }
+  .chat-screen{
+    background-color: rgb(240, 233, 224);
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+.send-box{
+  border-color: transparent;
+  box-shadow: transparent;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  outline-color: transparent;
+  height: 30px;
+  width: 250px;
+}
+.send-button{
+  background-color:rgb(4, 96, 88);
+  border-radius: 40px;
+  border-color: transparent;
+  height: 35px;
+  width: 60px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+svg{
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.input-group{
+  margin-bottom: 5px;
+}
+.camera{
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-color: transparent;
+  height: 30px;
+}
+.secure{
+  background-color: bisque;
+  padding: 10px;
+  margin: 10px;
+}
+
+.userSection {
+    width: 100%;
+  }
+
+
+
+  .user-message {
+    margin-top: 1rem;
+    text-align: left;
+    background: #3B82F6;
+    color: white;
+    float: left;
+  }
+
+  .messages {
+    max-width: 60%;
+    
+    margin: .5rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 7px;
+  }
+  
+
+  .seperator {
+    width: 100%;
+    height: 50px;
+  }
+
+  .bot-reply {
+    text-align: right;
+    background: #E5E7EB;
+    margin-top: 1rem;
+    float: right;
+    color: black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .seperator {
+    width: 100%;
+    height: 50px;
+  }
